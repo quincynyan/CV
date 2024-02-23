@@ -4,14 +4,89 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>CV</title>
+		<style>
+			iframe {
+				width: 100%;
+				height: calc(100vh - 20px);
+			}
+
+			object {
+				width: 100%;
+				height: calc(100vh - 20px);
+			}
+
+			hr {
+				margin: 0;
+				color: green;
+				border-color: purple;
+				background-color: pink;
+				border-width: 2vh;
+				padding: 10px 0 10px 0;
+				animation: gradient 1.2s ease infinite;
+			}
+
+			@keyframes gradient {
+				0% {
+					background-color: pink;
+				}
+				50% {
+					background-color: aqua;
+				}
+				100% {
+					background-color: pink;
+				}
+			}
+		</style>
 	</head>
 	<body>
+		<br />
+		<hr />
+		<br />
+		<br />
+		<a href="./CV.pdf" target="_blank">
+			<hr />
+		</a>
+		<br />
 		<iframe
 			src="https://drive.google.com/file/d/1lGYT7buoaaZqIq7iMHV6ITY_5Ci44qs_/preview"
 			width="640"
 			height="480"
 			allow="autoplay"
 		></iframe>
+		<br />
+		<a href="./CV.odt" target="_blank">
+			<hr />
+		</a>
+		<br />
 		<object data="./CV.pdf" type="application/pdf"></object>
+
+		<br />
+		<hr />
+		<br />
+		<br />
+		<a href="./CV.html" target="_blank">
+			<hr />
+		</a>
+		<br />
+		<br />
+		<hr />
+		<br />
+
+		<iframe src="./CV.html" frameborder="0"></iframe>
+		<br />
+		<a href="./CV.xhtml" target="_blank">
+			<hr />
+		</a>
+		<br />
+		<iframe src="./CV.xhtml" frameborder="0"></iframe>
+		<br />
+		<a href="./Nyan's CV.pdf" target="_blank">
+			<hr />
+		</a>
+		<br />
+		<br />
+		<hr />
+		<br />
 	</body>
 </html>
+
